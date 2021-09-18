@@ -7,6 +7,9 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#comments"
 		}
 	],
 	"repository": {
@@ -32,6 +35,17 @@
 				{
 					"name": "constant.character.escape.typephp",
 					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.typephp",
+			"begin": "//",
+			"end": "\n",
+			"patterns": [
+				{
+					"name": "comment.typephp",
+					"match": "//."
 				}
 			]
 		}

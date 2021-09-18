@@ -4,6 +4,7 @@ fn main(int argc, string[] argv):int {
     int a = 123
     let b = "abc"
     let c = a
+    let d = 1++
 
     print("Hello " + b + " " + c + "!\n") // output "Hello abc 123!"
 
