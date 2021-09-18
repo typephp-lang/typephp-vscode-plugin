@@ -14,8 +14,16 @@
 			"patterns": [{
 				"name": "keyword.control.typephp",
 				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
+			},
+			{
+				"name": "keyword.define.typephp",
+				"match": "\\b(let|fn)\\b"
+			},
+			{
+				"name": "keyword.type.typephp",
+				"match": "\\b(int|string|float)\\b"
+			}
+		]},
 		"strings": {
 			"name": "string.quoted.double.typephp",
 			"begin": "\"",
