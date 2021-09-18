@@ -1,0 +1,11 @@
+
+// main function 
+fn main(int argc, string[] argv):int {
+    int a = 123
+    let b = "abc"
+    let c = a
+
+    print("Hello " + b + " " + c + "!\n") // output "Hello abc 123!"
+
+    return 0
+}

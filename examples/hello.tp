@@ -1,0 +1,8 @@
+
+// main function 
+fn main(int argc, string[] argv):int {
+
+    print("Hello typephp!\n")
+   
+    return 0
+}
